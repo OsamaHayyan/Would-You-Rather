@@ -1,0 +1,21 @@
+.Box {
+  background-color: rgb(185, 179, 179);
+  margin: auto;
+  width: 35rem;
+  min-width: 25rem;
+  height: 20rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#dropdown-basic-button,
+.dropdown-menu {
+  width: 20rem !important;
+}
+
+#dropdown-basic-button {
+  border-radius: 10px !important;
+}

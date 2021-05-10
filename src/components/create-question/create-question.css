@@ -1,0 +1,51 @@
+.Box {
+  background-color: white;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.Box > .form-control {
+  width: 80%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  flex-basis: 55px;
+}
+
+div > h5 {
+  margin: 0;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.spinnerClass {
+  padding: 10rem;
+  display: flex;
+}
+
+.createQuestionForm {
+  display: flex;
+  flex-direction: column;
+}

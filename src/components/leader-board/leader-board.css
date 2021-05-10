@@ -1,0 +1,94 @@
+.LeaderBox {
+  color: black;
+  background-color: rgb(252, 252, 252);
+  height: fit-content;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(105, 105, 105);
+  width: 35rem;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+
+.image,
+img {
+  width: 85px;
+  margin: auto;
+}
+
+.userImg {
+  margin-left: 0 !important;
+}
+
+.userName {
+  color: black;
+  background-color: rgb(218, 214, 214);
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid rgb(105, 105, 105);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.poll-btn {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.hr {
+  border: 1px solid rgb(220 220 220);
+  height: 100px;
+  padding: 0 !important;
+  flex: 0 !important;
+}
+
+.row .col p {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.row .col h5 {
+  margin-bottom: 10px;
+}
+
+.scoreParent {
+  padding: 0 !important;
+}
+
+.score {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.titleScore {
+  margin-bottom: 10px !important;
+  background-color: rgb(214, 214, 214);
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  border-radius: 10px 10px 0 0;
+}
+
+.numScore {
+  width: 40%;
+  align-self: stretch;
+  flex-basis: 45%;
+  line-height: 42px;
+  background-color: rgb(0, 255, 115);
+  border-radius: 100%;
+}
