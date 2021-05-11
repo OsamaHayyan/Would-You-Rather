@@ -20,6 +20,8 @@ This project was bootstrapped with [Create React App]
  - redux
  - thunk
  - immrjs
+ - bootstrap-react
+ - bootstrap
 
 In the project directory, you can run:
 
