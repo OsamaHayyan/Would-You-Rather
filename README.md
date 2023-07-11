@@ -1,6 +1,8 @@
-# Getting Started with Would You Rather
+# Would You Rather
+To play the game, a person has to address a dilemma, usually between two very appealing, unpleasant, or
+otherwise tricky choices: Would you rather have the ability to fly like an eagle or swim like a whale?
 
-### `preview`
+## Website
 
 https://would-you-rather-fun.vercel.app/
 
@@ -11,10 +13,7 @@ https://would-you-rather-fun.vercel.app/
  - Fast performance
  - Choosing between two options
 
-## Available Scripts
-
-
-### `packages`
+## packages
 
  - react
  - react script
